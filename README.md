@@ -50,3 +50,4 @@ chmod +x uninstall-snell.sh
 ```
 systemctl enable snell.service
 ```
+升级直接重复安装一次
