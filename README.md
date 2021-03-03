@@ -47,3 +47,7 @@ wget --no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.
 chmod +x uninstall-snell.sh
 ./uninstall-snell.sh
 ```
+如果删除了一次，再次安装需要启用系统服务：
+```
+systemctl enable snell.service
+```
